@@ -1,0 +1,26 @@
+.sidebar{
+    width:100%;
+    height:100%;
+    background-color: rgb(240, 240, 240);
+    border-right:1px solid lightgray;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.sidebar ul li a {
+    color: rgb(117, 117, 117);
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding:5px;
+    margin:10px 0px;
+    border-right:2px solid transparent;
+}
+
+
+.sidebar ul li a:hover {
+    color: black;
+    border-right:2px solid black;
+}
